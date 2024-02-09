@@ -1,5 +1,6 @@
 $pink-color: #DF80AC
-    
+$border: solid black 2px
+
 
 body
     font-family: fantasy
@@ -7,9 +8,17 @@ body
     padding: 0
     
 header
-    height: 10%
+    @extend .ten
+
 section
+    @extend .reste
+
+.ten
+    height: 10%
+
+.reste
     height: 90%
+
 
 .all-height
     height: 100%
@@ -17,9 +26,16 @@ section
 .bg-pink
     background-color: $pink-color
 
+.boxes-shadow-alt
+    border-radius: 10px
+    border: $border
+    box-shadow: -5px 5px 0px -1px black
+    .progress-bar
+        background-color: $pink-color
+
 .boxes-shadow
     border-radius: 10px
-    border: solid black 2px
+    border: $border
     box-shadow: -7px 7px 0px -3px #DF80AC, -7px 7px 0px -1px black
 
 
@@ -38,3 +54,9 @@ section
     margin: 25px
     margin-bottom: 0
     max-height: 40%
+
+.square
+    width: 400px
+    aspect-ratio: 1/1
+    border: $border
+    box-shadow: -17px 17px 0px -1px black

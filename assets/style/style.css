@@ -4,11 +4,11 @@ body {
   padding: 0;
 }
 
-header {
+.ten, header {
   height: 10%;
 }
 
-section {
+.reste, section {
   height: 90%;
 }
 
@@ -17,6 +17,15 @@ section {
 }
 
 .bg-pink {
+  background-color: #DF80AC;
+}
+
+.boxes-shadow-alt {
+  border-radius: 10px;
+  border: solid black 2px;
+  box-shadow: -5px 5px 0px -1px black;
+}
+.boxes-shadow-alt .progress-bar {
   background-color: #DF80AC;
 }
 
@@ -41,4 +50,11 @@ section {
   margin: 25px;
   margin-bottom: 0;
   max-height: 40%;
+}
+
+.square {
+  width: 400px;
+  aspect-ratio: 1/1;
+  border: solid black 2px;
+  box-shadow: -17px 17px 0px -1px black;
 }/*# sourceMappingURL=style.css.map */
