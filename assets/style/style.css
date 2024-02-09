@@ -1,7 +1,44 @@
 body {
   font-family: fantasy;
+  height: 100vh;
+  padding: 0;
+}
+
+header {
+  height: 10%;
+}
+
+section {
+  height: 90%;
+}
+
+.all-height {
+  height: 100%;
 }
 
 .bg-pink {
   background-color: #DF80AC;
+}
+
+.boxes-shadow, .citation, .gif {
+  border-radius: 10px;
+  border: solid black 2px;
+  box-shadow: -7px 7px 0px -3px #DF80AC, -7px 7px 0px -1px black;
+}
+
+.gif {
+  padding: 25px;
+  margin: 25px;
+  max-height: 60%;
+}
+.gif img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.citation {
+  padding: 25px 25px 0 25px;
+  margin: 25px;
+  margin-bottom: 0;
+  max-height: 40%;
 }/*# sourceMappingURL=style.css.map */
