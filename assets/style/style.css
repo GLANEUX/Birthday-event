@@ -1,15 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@200;300;400;500;600;700;800;900&display=swap");
 body {
   font-family: fantasy;
   height: 100vh;
   padding: 0;
 }
 
-.ten, header {
+header {
   height: 10%;
 }
 
-.reste, section {
+section {
   height: 90%;
+}
+
+.the-alt-text {
+  height: 25%;
+}
+
+.the-circle-text {
+  height: 75%;
 }
 
 .all-height {
@@ -33,6 +42,7 @@ body {
   border-radius: 10px;
   border: solid black 2px;
   box-shadow: -7px 7px 0px -3px #DF80AC, -7px 7px 0px -1px black;
+  overflow: hidden;
 }
 
 .gif {
@@ -53,8 +63,20 @@ body {
 }
 
 .square {
-  width: 400px;
+  width: 350px;
   aspect-ratio: 1/1;
   border: solid black 2px;
   box-shadow: -17px 17px 0px -1px black;
+  overflow: hidden;
+  margin: 50px;
+}
+
+.square img {
+  width: 350px;
+}
+
+.text-alt {
+  font-family: Gluten;
+  font-weight: bold;
+  font-size: 4em;
 }/*# sourceMappingURL=style.css.map */

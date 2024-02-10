@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@200;300;400;500;600;700;800;900&display=swap')
+    
 $pink-color: #DF80AC
 $border: solid black 2px
-
+$round-text: 350px
 
 body
     font-family: fantasy
@@ -8,16 +10,16 @@ body
     padding: 0
     
 header
-    @extend .ten
-
-section
-    @extend .reste
-
-.ten
     height: 10%
 
-.reste
+section
     height: 90%
+
+.the-alt-text
+    height: 25%
+
+.the-circle-text
+    height: 75%
 
 
 .all-height
@@ -37,6 +39,7 @@ section
     border-radius: 10px
     border: $border
     box-shadow: -7px 7px 0px -3px #DF80AC, -7px 7px 0px -1px black
+    overflow: hidden
 
 
 .gif
@@ -56,7 +59,16 @@ section
     max-height: 40%
 
 .square
-    width: 400px
+    width: $round-text
     aspect-ratio: 1/1
     border: $border
     box-shadow: -17px 17px 0px -1px black
+    overflow: hidden
+    margin: 50px
+.square img
+    width: $round-text
+
+.text-alt
+    font-family: Gluten
+    font-weight: bold
+    font-size: 4em
