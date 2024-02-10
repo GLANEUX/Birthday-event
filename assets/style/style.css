@@ -79,4 +79,22 @@ section {
   font-family: Gluten;
   font-weight: bold;
   font-size: 4em;
+}
+
+.left-top-star {
+  position: absolute;
+  top: 130px;
+  left: 45px;
+}
+
+.right-star {
+  position: absolute;
+  top: 255px;
+  left: 485px;
+}
+
+.left-bottom-star {
+  position: absolute;
+  top: 430px;
+  left: 45px;
 }/*# sourceMappingURL=style.css.map */
